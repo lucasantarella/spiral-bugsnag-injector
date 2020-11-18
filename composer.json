@@ -1,0 +1,23 @@
+{
+    "name": "lucasantarella/spiral-bugsnag-injector",
+    "description": "Spiral Framework Bugsnag Error Reporter Injector",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "spiral/config": "^2.6",
+        "bugsnag/bugsnag": "^3.0",
+        "spiral/boot": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Santarella",
+            "email": "luca.santarella@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BugsnagInjector\\": "src/"
+        }
+    }
+}
